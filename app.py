@@ -11,7 +11,7 @@ def generate_motivation(mood):
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama3-70b-8192",
+        "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "user", "content": f"Give me a motivational quote for someone who is {mood.lower()}."}
         ],

@@ -1,11 +1,11 @@
 # Daily Motivation Generator
 
 ## Overview
-This is a Streamlit-based web application that generates personalized motivational quotes using AI. The app uses the Groq API (LLaMA3-70B model) to create motivational content based on the user's current mood or situation.
+This is a Streamlit-based web application that generates personalized motivational quotes using AI. The app uses the Groq API (LLaMA 3.3 70B Versatile model) to create motivational content based on the user's current mood or situation.
 
 ## Project Information
 - **Framework**: Streamlit (Python)
-- **AI Provider**: Groq API (LLaMA3-70B model)
+- **AI Provider**: Groq API (LLaMA 3.3 70B Versatile model)
 - **Port**: 5000
 - **Deployment**: Autoscale deployment configuration
 
@@ -17,6 +17,7 @@ This is a Streamlit-based web application that generates personalized motivation
   - Configured deployment for autoscale
   - Added comprehensive .gitignore for Python projects
   - Set up GROQ_API_KEY as environment secret
+  - Updated model from deprecated `llama3-70b-8192` to production `llama-3.3-70b-versatile`
 
 ## Architecture
 - **app.py**: Main application file containing Streamlit UI and Groq API integration
